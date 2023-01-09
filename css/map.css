@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+
+#logo {
+    margin: 5px 5px;
+}
+
+#logo img {
+    height: 57px;
+    margin: 10px 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(77, 114, 31);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(51, 85, 19);
+}
+
+/* selected link */
+a:active {
+    color: rgb(10, 93, 20);
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    opacity: 1.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 11px;
+    border-radius: 10px;
+    display: block;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: beige;
+}
+
+.h-primary {
+    font-size: 3rem;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#map {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#map img {
+    width: 1200px;
+}
+
+.h-secondary {
+    font-size: 1.5rem;
+    padding: 6px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#suggest {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#suggest .points {
+    font-family: 'Dosis', sans-serif;
+    padding: 15px;
+}
+
+#book {
+    background-color: beige;
+    padding: 15px;
+}
+
+#book form {
+    font-family: 'Dosis', sans-serif;
+}
+
+.form button {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(160, 211, 109);
+    color: beige;
+    margin: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form label {
+    padding: 0px 6px;
+
+}
+
+.form input {
+    margin: 5px;
+}

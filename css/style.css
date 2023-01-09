@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+
+#logo {
+    margin: 5px 5px;
+}
+
+#logo img {
+    height: 57px;
+    margin: 10px 10px;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    opacity: 1.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 11px;
+    border-radius: 10px;
+    display: block;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: beige;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#home::before {
+    content: "";
+    background: url(../images/bg3.jpg) no-repeat center center/cover;
+    opacity: 0.65;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.h-primary {
+    font-size: 3rem;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.h-secondary {
+    font-size: 1.5rem;
+    padding: 6px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.h-sec {
+    font-size: 2.2rem;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#home p {
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+
+a:visited {
+    color: blanchedalmond;
+}
+
+
+a:hover {
+    color: beige;
+}
+
+
+a:active {
+    color: bisque;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 6px 20px;
+    border: 2px solid rgb(185, 185, 73);
+    ;
+    background-color: black;
+    color: rgb(236, 236, 183);
+    margin: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.centre {
+    text-align: center;
+}
+
+#services {
+    margin: 34px;
+    display: flex;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(141, 122, 122);
+    border-radius: 25px;
+    width: 500px;
+    margin: 3px 6px;
+    background: beige;
+}
+
+.box img {
+    width: 244px;
+    padding-top: 5px;
+}
+
+.services .h-primary {
+    padding-left: 40px;
+    padding-top: 30px;
+    margin: 10px;
+}
+
+#sponsors {
+    display: flex;
+    flex-direction: column;
+}
+
+.sponsors {
+    padding: 50px;
+}
+
+.sp-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 325px;
+}
+
+#sponsors::before {
+    content: "";
+    background: url(../images/about_us.jpg) no-repeat center center/cover;
+    opacity: 0.4;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 81%;
+    z-index: -1;
+}
+
+.sp-logos img {
+    width: 150px;
+    padding: 50px;
+    margin: 10px 5px;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: beige;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    border-radius: 100px;
+    background-color: rgb(66, 66, 1);
+    color: rgb(219, 219, 196);
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    padding: 3px;
+}
+
+.form button {
+    padding: 6px 20px;
+    border: 2px solid rgb(22, 23, 21);
+    background-color: rgb(24, 46, 4);
+    color: beige;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
